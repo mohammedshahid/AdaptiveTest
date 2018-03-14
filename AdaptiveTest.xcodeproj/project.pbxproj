@@ -13,6 +13,9 @@
 		101458C32057DD6100998CCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 101458C12057DD6100998CCF /* Main.storyboard */; };
 		101458C52057DD6100998CCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 101458C42057DD6100998CCF /* Assets.xcassets */; };
 		101458C82057DD6100998CCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 101458C62057DD6100998CCF /* LaunchScreen.storyboard */; };
+		10F13B0A2058C56700020E6B /* LocalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F13B092058C56700020E6B /* LocalViewController.swift */; };
+		10F13B0C2058C57300020E6B /* TrainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F13B0B2058C57300020E6B /* TrainViewController.swift */; };
+		10F13B0E2058C57B00020E6B /* FlightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F13B0D2058C57B00020E6B /* FlightViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		101458C42057DD6100998CCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		101458C72057DD6100998CCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		101458C92057DD6100998CCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10F13B092058C56700020E6B /* LocalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalViewController.swift; sourceTree = "<group>"; };
+		10F13B0B2058C57300020E6B /* TrainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainViewController.swift; sourceTree = "<group>"; };
+		10F13B0D2058C57B00020E6B /* FlightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 			isa = PBXGroup;
 			children = (
 				101458BB2057DD6100998CCF /* AppDelegate.swift */,
+				10F13B082058C55100020E6B /* Locals */,
+				10F13B072058C55100020E6B /* Trains */,
+				10F13B062058C54200020E6B /* Flights */,
 				101458BD2057DD6100998CCF /* MasterViewController.swift */,
 				101458BF2057DD6100998CCF /* DetailViewController.swift */,
 				101458C12057DD6100998CCF /* Main.storyboard */,
@@ -65,6 +74,30 @@
 				101458C92057DD6100998CCF /* Info.plist */,
 			);
 			path = AdaptiveTest;
+			sourceTree = "<group>";
+		};
+		10F13B062058C54200020E6B /* Flights */ = {
+			isa = PBXGroup;
+			children = (
+				10F13B0D2058C57B00020E6B /* FlightViewController.swift */,
+			);
+			path = Flights;
+			sourceTree = "<group>";
+		};
+		10F13B072058C55100020E6B /* Trains */ = {
+			isa = PBXGroup;
+			children = (
+				10F13B0B2058C57300020E6B /* TrainViewController.swift */,
+			);
+			path = Trains;
+			sourceTree = "<group>";
+		};
+		10F13B082058C55100020E6B /* Locals */ = {
+			isa = PBXGroup;
+			children = (
+				10F13B092058C56700020E6B /* LocalViewController.swift */,
+			);
+			path = Locals;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +174,9 @@
 			files = (
 				101458C02057DD6100998CCF /* DetailViewController.swift in Sources */,
 				101458BE2057DD6100998CCF /* MasterViewController.swift in Sources */,
+				10F13B0E2058C57B00020E6B /* FlightViewController.swift in Sources */,
+				10F13B0C2058C57300020E6B /* TrainViewController.swift in Sources */,
+				10F13B0A2058C56700020E6B /* LocalViewController.swift in Sources */,
 				101458BC2057DD6100998CCF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
