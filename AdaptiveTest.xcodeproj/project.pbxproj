@@ -13,6 +13,7 @@
 		101458C32057DD6100998CCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 101458C12057DD6100998CCF /* Main.storyboard */; };
 		101458C52057DD6100998CCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 101458C42057DD6100998CCF /* Assets.xcassets */; };
 		101458C82057DD6100998CCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 101458C62057DD6100998CCF /* LaunchScreen.storyboard */; };
+		108757FA205A7C43008D4315 /* ChummaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108757F9205A7C43008D4315 /* ChummaVC.swift */; };
 		10A4E5DC2058E52100ABB11C /* FlightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A4E5DB2058E52100ABB11C /* FlightViewController.swift */; };
 		10F13B0A2058C56700020E6B /* LocalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F13B092058C56700020E6B /* LocalViewController.swift */; };
 		10F13B0C2058C57300020E6B /* TrainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F13B0B2058C57300020E6B /* TrainViewController.swift */; };
@@ -27,6 +28,7 @@
 		101458C42057DD6100998CCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		101458C72057DD6100998CCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		101458C92057DD6100998CCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		108757F9205A7C43008D4315 /* ChummaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChummaVC.swift; sourceTree = "<group>"; };
 		10A4E5DB2058E52100ABB11C /* FlightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightViewController.swift; sourceTree = "<group>"; };
 		10F13B092058C56700020E6B /* LocalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalViewController.swift; sourceTree = "<group>"; };
 		10F13B0B2058C57300020E6B /* TrainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				10A4E5DB2058E52100ABB11C /* FlightViewController.swift */,
+				108757F9205A7C43008D4315 /* ChummaVC.swift */,
 			);
 			path = Flights;
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				108757FA205A7C43008D4315 /* ChummaVC.swift in Sources */,
 				101458C02057DD6100998CCF /* DetailViewController.swift in Sources */,
 				101458BE2057DD6100998CCF /* MasterViewController.swift in Sources */,
 				10A4E5DC2058E52100ABB11C /* FlightViewController.swift in Sources */,
