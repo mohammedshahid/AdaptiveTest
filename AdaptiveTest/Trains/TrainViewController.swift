@@ -20,6 +20,8 @@ class TrainViewController: UIViewController {
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
+        
+        //didReceiveMemoryWarning
         // Dispose of any resources that can be recreated.
     }
     
