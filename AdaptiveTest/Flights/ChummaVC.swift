@@ -12,6 +12,10 @@ class ChummaVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        ///Super amster
+        
+        //Amazing changes
 
         // Do any additional setup after loading the view.
     }
