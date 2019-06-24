@@ -12,8 +12,6 @@ class FlightViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        var super = "Super"
         
         // Do any additional setup after loading the view.
     }
