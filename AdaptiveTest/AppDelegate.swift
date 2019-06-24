@@ -8,6 +8,10 @@
 
 import UIKit
 
+import AppCenter
+import AppCenterAnalytics
+import AppCenterCrashes
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDelegate {
 
@@ -21,6 +25,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
         let navigationController = splitViewController.viewControllers[splitViewController.viewControllers.count-1] as! UINavigationController
         navigationController.topViewController!.navigationItem.leftBarButtonItem = splitViewController.displayModeButtonItem
         splitViewController.delegate = self
+        
+        
+        MSAppCenter.start("cfdaa1b1-ec9e-40c5-a904-6f48077f009a", withServices:[
+            MSAnalytics.self,
+            MSCrashes.self
+            ])
+        
         return true
     }
 
